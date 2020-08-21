@@ -1,0 +1,90 @@
+body{
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+	background: #FFFFFF;
+	font-family: 'Alegreya',serif;
+}
+
+article{
+	flex: 2;
+	overflow-y: auto;
+	color: #3F3F37;
+	line-height: 1.4;
+}
+
+h1{
+	font-family: 'Alegreya',serif;
+	font-weight:bold;
+	font-style: normal;
+	color:#FFFFFF;
+	text-shadow:0 2px 0 #2;
+	font-size:300%; 
+}
+h2{
+	font-family: 'Alegreya',serif;
+	font-weight: bold;
+	font-style: normal;
+	color:#ED6A5A;
+	text-shadow:0 2px 0 #2;
+	font-size:200%; 
+}
+h3 {
+	font-family: 'Alegreya',serif;
+	font-weight: normal;
+	font-style: normal;
+	color:#ED6A5A;
+	font-size:160%;  
+}
+
+p {
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	color: #3F3F37;
+}
+
+aside{
+	flex: 1;
+	overflow-y: auto;
+	opacity:0.8;
+	background-color: #9BC1BC;
+}
+
+header{
+	color:#FFFFFF;
+	background-color: #ED6A5A;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+header .logo{
+	width: 150px;
+	height: 150px;
+	float:left;
+	padding: 0px 0px 0px 20px;
+	margin: auto;
+}
+
+ul.navbut a{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    margin: auto;
+    color:#FFFFFF;
+    padding-left:10px;
+}
+
+
+footer {
+	background: #ED6A5A;
+	font-family: 'Alegreya', serif;
+	font-weight: normal;
+	font-style: normal;
+	color:#FFFFFF;
+}
